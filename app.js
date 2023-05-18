@@ -1,4 +1,4 @@
-const API_KEY = "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"
+const API_KEY = "OpenAI_API_KEY"
 
 async function fetchImages() {
     const response = await fetch("https://api.openai.com/v1/images/generations", {
