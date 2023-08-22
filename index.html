@@ -4,11 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Image Gen</title>
+    <title>Image Generator</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-<script src="app.js
-"></script>    
+    <div class="container">
+        <h1>Image Generator</h1>
+        <div class="input-box">
+            <label for="promptInput">Prompt:</label>
+            <input type="text" id="promptInput" placeholder="Enter prompt" />
+            <br>
+            <label for="numImagesInput">Number of Images:</label>
+            <input type="number" id="numImagesInput" min="1" value="1" />
+            <button id="generateButton">Generate Image(s)</button>
+        </div>
+        <div id="imageContainer" class="image-container"></div>
+    </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
