@@ -1,4 +1,4 @@
-const API_KEY = "API-Key";
+const API_KEY = "API_Key";
 const generateButton = document.getElementById("generateButton");
 const promptInput = document.getElementById("promptInput");
 const numImagesInput = document.getElementById("numImagesInput");
